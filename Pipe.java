@@ -1,4 +1,6 @@
 
+import java.util.List;
+
 import util.*;
 
 public class Pipe {
@@ -16,9 +18,5 @@ public class Pipe {
     public void move(double dx, double dy) {
         this.top.translate(dx, dy);
         this.bottom.translate(dx, dy);
-    }
-
-    public void checkCollision() {
-
     }
 }
